@@ -16,3 +16,5 @@ password_textbox.send_keys(password)
 
 login_button = driver.find_element_by_id("loginbutton")
 login_button.submit()
+
+driver.close()
